@@ -19,5 +19,43 @@
 }
 
 body{
-  /* background-color: black; */
+   background-color: black;
+}
+.header{
+  margin: 2rem 6rem 0 6rem;
+}
+/* navbar styles */
+.font-color{
+  color: rgb(230, 83, 60);
+  font-size: 2rem;
+  font-weight: 800;
+}
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-info{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  align-items: center;
+  color: white;
+  border: 1px solid  rgba(255, 255, 255, 0.1) ;
+  border-radius: 2rem;
+  padding: 0px 20px 0px 10px;
+}
+.nav-info p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.btn-home{
+  height: 2rem;
+  padding: 2px 20px;
+  border: none;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: rgb(230, 83, 60);
 }
