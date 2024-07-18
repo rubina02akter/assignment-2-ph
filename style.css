@@ -14,10 +14,9 @@
 .playwrite-span-font{
   font-family: "Playwrite DK Uloopet", cursive;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 900;
   font-style: normal;
 }
-
 body{
    background-color: black;
 }
@@ -58,4 +57,129 @@ body{
   font-weight: 600;
   font-size: 1rem;
   background-color: rgb(230, 83, 60);
+}
+.lines{
+  display: none;
+}
+/* stay healthy section styles */
+h1{
+  color: white;
+  font-weight: 800;
+  font-size: 4.5rem;
+}
+.stay-healthy-text{
+  font-weight: 400;
+  font-size: 1rem;
+  color:rgba(255, 255, 255, 0.5);
+}
+.stay-healthy-section{
+  color: aliceblue;
+  display: none;
+  justify-content: space-between;
+  margin: 2rem 6rem 0 6rem;
+}
+/* part 1 */
+.part-1{
+  max-width: 50%;
+  margin-top: 6rem;
+}
+.join-club-btn{
+  color: white;
+  background-color: rgb(230, 83, 60);
+  border: none;
+  border-radius: 2.5rem;
+  padding: 10px 27px;
+}
+.download-btn{
+  color: white;
+  background-color: black;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 2.5rem;
+  padding: 9px 20px;
+  margin-left: 0.5rem;
+}
+.buttons{
+  margin-top: 2rem;
+}
+/* part 2 */
+.btn-badge{
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px 40px;
+  text-align: start;
+  margin-left: 120px;
+  margin-bottom: -150px;
+  
+}
+
+.badge-no{
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+/* excercise-section */
+.change-habit-description{
+  color: white;
+  text-align: center;
+  margin: 2rem 6rem 0 6rem;
+  
+}
+.excercise-section{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  color: white;
+  margin: 2rem 6rem 0 6rem;
+}
+.excercise-img{
+  border-radius: 50%;
+}
+.img-container{
+  border-color: rgb(39, 39, 39);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 50%;
+  height: 180px;
+  width: 181px;
+  margin-left: 45px;
+}
+.excercise-section p , .excercise-section h4{
+  text-align: center;
+}
+.excercise-section h4{
+  font-size: 1rem;
+  font-weight: 600;
+
+}
+.excercise-section p{
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-align: center;
+  width: 200px;
+  margin-left: 40px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.change-habit-heading{
+  font-size: 2rem;
+  font-weight: 800;
+}
+.change-habit-text{
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+@media  screen and (max-width: 576px) {
+  .header{
+    margin: 3rem 0 0 1rem ;
+  }
+  .nav-info{
+    display: none;
+  }
+  .lines{
+    display: flex;
+    margin-right: 0.5rem;
+  }
 }
