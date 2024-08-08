@@ -536,6 +536,49 @@ hr{
     display: flex;
     margin-right: 0.5rem;
   }
+  /* stay healthy */
+  .stay-healthy-section{
+    margin-left: 1rem;
+    height: auto;
+    flex-direction: column;
+  }
+  h1{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-right: 150px;
+  }
+  .stay-healthy-p{
+    margin-right: 110px;
+  }
+  .btn-join{
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  .btn-download{
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  .card-1{
+    margin-top: 250px;
+   margin-left: 0;
+  }
+  .card-2{
+    text-align: start;
+    padding: 12px  30px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    background-color:rgba(48, 48, 48, 0.54);
+    border:1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    position: absolute;
+   margin-left: 200px;
+   margin-top: -540px;
+  border-radius: 12px;
+  }
+
+
+
   .excercise-section{
  
     grid-template-columns: repeat(1,1fr);
