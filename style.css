@@ -618,14 +618,23 @@ hr{
     border-radius: 50px;
   }
   .cal-heading{
-    margin-left: 0px;
+    margin-left: 10px;
     margin-right: 0px;
+  }
+  .cal-heading h3{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+  .cal-heading p{
+    letter-spacing: 0.3px;
   }
   .calculator-part{
     height: auto;
     flex-direction: column;
     gap: 50px;
     padding: 0 0 0 25px;
+
   }
   td,th {
     border: 1px solid rgb(68, 67, 67);
@@ -710,13 +719,49 @@ hr{
   .calculate-btn{
     margin-top: 20px;
     margin-left: 0px;
+    margin-bottom: 30px;
     padding: 10px 40px;
     border: none;
     background-color: rgb(230, 83, 60);
     color: white;
     border-radius: 30px;
   }
-  
+  /* Team section responsive */
+  .team-heading{
+    margin: 15px 15px;
+  }
+  .team-heading h3{
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .team-img-container{
+    padding-bottom: 14px;
+  }
+  .team-images-flex-1{
+    flex-direction: column;
+  }
+  .team-images-flex-2{
+    flex-direction: column;
+  }
+  .team-img-container{
+    margin: 15px 15px;
+  }
+  .team-images-flex-1 img {
+    padding-right: 24px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-left: 10px;
+   }
+  .team-images-flex-2 img {
+    padding-right: 24px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 8px;
+   }
+
+  /* footer section responsive */
   .footer{
     width: 100%;
     grid-template-columns: repeat(1,1fr);
