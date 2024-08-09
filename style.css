@@ -395,62 +395,37 @@ table caption {
 }
 /* Trainers images style */
 .team-img-container{
-  border-radius: 30px;
   margin: 2rem 6rem 0 6rem;
-  background-color: rgb(34, 34, 34);
+  background-color: rgba(255, 255, 255, 0.1);
+  height: auto;
+  border-radius: 15px;
 }
-
-.team-images img{
-  height: 300px;
-  width:300px ;
- object-fit: cover;
- border-radius: 20px;
+.team-images-flex-1{
+  height: auto;
+display: flex;
+margin-left: 4px;
+margin-top: 0px;
 }
-/* .trainer-1{
-  height: 300px;
-  width:300px ;
-padding-left: 20px;
-padding-right: ;
-padding-top: 20px;
-padding-bottom: ;
+.team-images-flex-1 img {
+ padding-left: 10px;
+ padding-top: 20px;
+ padding-right: 0px;
+ padding-bottom: 12px;
+ margin-left: 10px;
 }
-.trainer-2{
-  height: 300px;
-  width:300px ;
-  padding-left: 20px;
-  padding-right: ;
-  padding-top: 20px;
-  padding-bottom: ;
+.team-images-flex-2{
+  height: auto;
+display: flex;
+margin-left: 4px;
+margin-top: 0px;
 }
-.trainer-3{
-height: 300px;
-width:300px ;
-padding-left: 20px;
-padding-right: ;
-padding-top: 20px;
-padding-bottom: ;
+.team-images-flex-2 img {
+ padding-left: 10px;
+ padding-top: 10px;
+ padding-right: 0px;
+ padding-bottom: 25px;
+ margin-left: 10px;
 }
-.trainer-4{
-height: 300px;
-width:300px ;
-padding-left: 20px;
-padding-right: ;
-padding-top: 20px;
-padding-bottom: ;
-}
-.trainer-5{
-height: 300px;
-width:300px ;
-padding-left: 20px;
-padding-right: ;
-padding-top: 20px;
-padding-bottom: ;
-}
-.trainer-6{
-height: 300px;
-width:300px ;
-} */
-
 /* footer */
 .footer-section{
   background-color: rgb(34, 34, 34);
@@ -516,7 +491,8 @@ width:300px ;
   margin-top: 40px;
 }
 hr{
-  color:rgba(57, 57, 57, 0.5);
+  border: solid 1px;
+  color: rgba(255, 255, 255, 0.1);
   margin: 2rem 6rem 0 6rem;
 }
 .footer-last-line{
