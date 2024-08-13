@@ -27,7 +27,7 @@ body{
 .font-color{
   font-style: italic;
   color: rgb(230, 83, 60);
-  font-size: 2.2rem;
+  font-size: 2.6rem;
   font-weight: 800;
 }
 .nav-container{
@@ -168,6 +168,7 @@ border-radius: 50px;
   color: white;
   font-size: 2rem;
   text-align: center;
+  margin-top: 100px;
 }
 .title-section-text{
   color:gray;
@@ -253,6 +254,7 @@ font-size: 0.8rem;
 .yoga-fitness-2{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 .online-fitness{
   width:400px;
@@ -634,6 +636,59 @@ hr{
     display: flex;
     margin-right: 0.5rem;
   }
+  /* gym at home */
+  .gym-at-home{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white; 
+  }
+  .yoga-fitness{
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-left: 15px;
+  }
+  .yoga-fitness-2{
+   flex-direction: column-reverse;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    margin-left: 15px;
+  }
+  .fitness-description{
+    width:100%;
+    height: auto;
+    margin-top: 0px;
+  }
+  .fitness-description-2{
+    width: 92%;
+    height: auto;
+    text-align: start;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .fitness-description-2 h3{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  .fitness-description h3{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .fitness-description-2 p{
+  font-size: 0.7rem;
+  }
+  .fitness-description p{
+  font-size: 0.7rem;
+  width: 90%;
+  }
+  .online-fitness{
+    width:95%;
+    height: 240px;
+    border-radius: 15px;
+    margin-top: 30px;
+    border: solid 2px rgba(171, 119, 15, 0.856);
+  }
   /* stay healthy */
   .stay-healthy-section{
     margin-left: 1rem;
@@ -686,11 +741,17 @@ hr{
   border-radius: 50px;
   }
 /* special section */
+.title-section{
+font-size: 1.5rem;
+margin-left: 0px;
+}
 .workout-section-boxes{
  flex-direction: column;
+ margin-bottom: 0px;
 }
 .workout-schedule{
-  margin-left: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
 }
 .calender-1{
   width: 370px;
@@ -788,16 +849,21 @@ hr{
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 0px;
+    margin-left: 10px;
+    margin-top: 50px;
   }
   .cal-heading p{
     letter-spacing: 0.3px;
+    margin-left: 10px;
+    margin-right: 10px;
+ 
   }
   .calculator-part{
     height: auto;
     flex-direction: column;
     gap: 50px;
     padding: 0 0 0 25px;
-
+    margin-top: 30px;
   }
   td,th {
     border: 1px solid rgb(68, 67, 67);
@@ -819,9 +885,16 @@ hr{
   .flex-part-cal{
     width: 100%;
    }
+   .input-info{
+    margin-left: 0px;
+    margin-bottom: 30px;
+   }
    .input-info  h3{
      margin: 0px ;
      font-size: 1.3rem;
+   }
+   .input-info p{
+    margin-right: 20px;
    }
    #first-input{
     display: flex;
@@ -931,15 +1004,20 @@ hr{
   }
   .footer-container-1 h2{
     margin: 0;
+    font-size: 4.6rem;
   }
   .footer-container-1 ,   .footer-container-2 ,   .footer-container-3{
     margin: 50px 0px 0px 10px;
   }
   .footer-container-1 p{
     margin-right: 30px;
+    line-height: 30px;
   }
   hr{
-    margin: 0;
+   margin-top: 30px;
+   margin-bottom: 50px;
+   margin-left: 0px;
+   margin-right: 0px;
   }
   .footer-last-line{
     text-align: start;
@@ -949,7 +1027,14 @@ hr{
   .footer-container-2{
     margin-top: 0;
   }
+  .footer-container-2 li{
+    line-height: 40px;
+  }
   .footer-container-3{
     margin-top: 0;
   }
+  .footer-container-3 li{
+    line-height: 40px;
+  }
+
 }
